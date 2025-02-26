@@ -5,34 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - Meu Site Profissional</title>
   <link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Barra de navegação -->
- <header>
+  <header>
     <nav>
-        <ul>
-            <li><a href="{{ "/" | relative_url }}">Início</a></li>
-            <li><a href="{{ "/portfolio" | relative_url }}">Portfólio</a></li>
-            <li><a href="{{ "/publications" | relative_url }}">Publicações</a></li>
-            <li><a href="{{ "/_en/" | relative_url }}">English</a></li>
-        </ul>
+      <ul>
+        <li><a href="{{ "/" | relative_url }}">Início</a></li>
+        <li><a href="{{ "/portfolio" | relative_url }}">Portfólio</a></li>
+        <li><a href="{{ "/publications" | relative_url }}">Publicações</a></li>
+        <li><a href="{{ "/en/" | relative_url }}">English</a></li>
+      </ul>
     </nav>
-</header>
-
+  </header>
 
   <!-- Layout da página -->
   <div class="container">
     <aside>
-      <img src="{{ "/assets/foto_perfil.jpg" | relative_url }}" alt="Foto de Tawan" class="foto-perfil">
+      <img src="{{ "/assets/foto_perfil.jpg" | relative_url }}" alt="Foto de Tawane" class="foto-perfil">
       <h2>Tawane Nunes</h2>
-      <p>Informações de contato: <br> Email: taw.ynunes@gmail.com</p>
+      <p>Email: <a href="mailto:taw.ynunes@gmail.com">taw.ynunes@gmail.com</a></p>
       <div class="social-links">
         <a href="https://linkedin.com/in/tawan">LinkedIn</a> |
         <a href="https://github.com/tawnunes">GitHub</a> |
         <a href="https://twitter.com/tawan">Twitter</a>
       </div>
     </aside>
-
     <main>
       {{ content }}
     </main>
@@ -43,4 +42,3 @@
   </footer>
 </body>
 </html>
-

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Página Inicial"
+lang: pt
 ---
 
 # Bem-vindo ao meu site profissional

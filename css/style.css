@@ -9,7 +9,7 @@ body {
 
 /* Barra de navegação */
 header {
-  background-color: #333;
+  background-color: #285260;
   color: white;
   padding: 10px 0;
 }
@@ -82,7 +82,7 @@ main {
 
 /* Rodapé */
 footer {
-  background-color: #333;
+  background-color: #285260;
   color: white;
   text-align: center;
   padding: 10px;

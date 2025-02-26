@@ -1,0 +1,9 @@
+- title: "Projeto 1"
+  category: "Desenvolvimento Web"
+  description: "Breve descrição do projeto 1."
+  link: "https://exemplo.com/projeto1"
+
+- title: "Projeto 2"
+  category: "Análise de Dados"
+  description: "Breve descrição do projeto 2."
+  link: "https://exemplo.com/projeto2"

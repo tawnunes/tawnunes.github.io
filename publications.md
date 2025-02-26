@@ -1,12 +1,17 @@
 ---
 layout: default
 title: "Publicações"
+lang: pt
 ---
 
 # Minhas Publicações
 
-Aqui estão alguns artigos e publicações que escrevi:
-
-- [Título do Artigo 1](https://exemplo.com/artigo1) - Resumo do artigo.
-- [Título do Artigo 2](https://exemplo.com/artigo2) - Resumo do artigo.
-
+<div class="publications-grid">
+{% for post in site.data.publications %}
+  <div class="publication-box" onclick="window.location='{{ post.link }}';">
+    <h3>{{ post.title }}</h3>
+    <p><strong>Revista:</strong> {{ post.journal }}</p>
+    <p>{{ post.summary }}</p>
+  </div>
+{% endfor %}
+</div>

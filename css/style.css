@@ -92,7 +92,7 @@ footer {
 }
 
 /* Seções destacadas (Publicações e Portfólio) */
-/*.section-container {
+.section-container {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
@@ -122,6 +122,15 @@ footer {
   background-color: #e0e0e0;
   transform: scale(1.02);
 }
+
+/* Seções destacadas (Publicações e Portfólio) */
+.section-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+} 
 
 /* Portfolio */
 .portfolio-grid {
